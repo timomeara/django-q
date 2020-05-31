@@ -1,0 +1,5 @@
+on:
+  release:
+        types: [published, created, edited]
+name: Generate changelog
+uses: heinrichreimer/action-github-changelog-generator@v2.1.1
