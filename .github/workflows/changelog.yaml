@@ -4,6 +4,7 @@ on:
 jobs:
   releasing:
     name: Generate changelog
-      steps:
-        - uses: heinrichreimer/action-github-changelog-generator@v2.1.1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: heinrichreimer/action-github-changelog-generator@v2.1.1
 
