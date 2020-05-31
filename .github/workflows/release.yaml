@@ -2,7 +2,7 @@ on:
   release:
         types: [published, created, edited]
 jobs:
-  release:
+  releasing:
     name: Generate changelog
     runs-on: ubuntu-latest
     steps:
