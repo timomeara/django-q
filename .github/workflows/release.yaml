@@ -2,7 +2,7 @@ on:
   release:
         types: [published, created, edited]
 jobs:
-  releasing:
+  release:
     name: Generate changelog
       steps:
         - uses: heinrichreimer/action-github-changelog-generator@v2.1.1
